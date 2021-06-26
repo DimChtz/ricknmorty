@@ -45,6 +45,11 @@
 				background-color: #2ac769;
 			}
 		}
+		&--dead {
+			&:before {
+				background-color: #b82828;
+			}
+		}
 	}
 	&__avatar {
 		width: 60px;
@@ -202,6 +207,11 @@
 		&--alive {
 			&:before {
 				background-color: #2ac769;
+			}
+		}
+		&--dead {
+			&:before {
+				background-color: #b82828;
 			}
 		}
 	}

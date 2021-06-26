@@ -54,7 +54,15 @@
 					.attr("src", data.image);
 				$charPreviewModal
 					.find(".char-modal__status")
-					.text(`${data.status} - ${data.species}`);
+					.text(`${data.status} - ${data.species}`)
+					.toggleClass(
+						"char-modal__status--alive",
+						data.status.toLowerCase() === "alive"
+					)
+					.toggleClass(
+						"char-modal__status--dead",
+						data.status.toLowerCase() === "dead"
+					);
 
 				var $details = $charPreviewModal.find(".char-modal__details");
 

@@ -282,6 +282,9 @@ body {
 .char-box__status--alive:before {
   background-color: #2ac769;
 }
+.char-box__status--dead:before {
+  background-color: #b82828;
+}
 .char-box__avatar {
   width: 60px;
   height: 60px;
@@ -439,6 +442,9 @@ body {
 }
 .char-modal__status--alive:before {
   background-color: #2ac769;
+}
+.char-modal__status--dead:before {
+  background-color: #b82828;
 }
 
 .gender-icon {
