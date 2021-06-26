@@ -1,0 +1,15 @@
+{
+  "emmet.preferences": {
+    "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+  },
+  "emmet.syntaxProfiles": {
+    // Enable XHTML dialect for HTML syntax
+    // “html”: “xhtml”
+    "html": {
+      "filters": "html, c"
+    }
+  }
+  //   "[php]": {
+  //     "editor.defaultFormatter": "wongjn.php-sniffer"
+  //   }
+}

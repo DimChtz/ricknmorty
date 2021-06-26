@@ -1,0 +1,36 @@
+/* ========================================================== */
+/* 			            01. general                               */
+/* ========================================================== */
+
+$root-font-size: 16px !default;
+
+/* ========================================================== */
+/* 			            02. breakpoints                           */
+/* ========================================================== */
+$min-sm: 500px !default;
+$min-md: 768px !default;
+$min-lg: 1024px !default;
+$min-xl: 1366px !default;
+
+$breakpoints: (
+	"sm": $min-sm,
+	"md": $min-md,
+	"lg": $min-lg,
+	"xl": $min-xl
+);
+
+/* ========================================================== */
+/* 			            03. css variables                         */
+/* ========================================================== */
+
+:root {
+	/* html|body */
+	--main-font-family: "Roboto", sans-serif;
+	--main-font-size: #{$root-font-size};
+	--main-font-color: #25282b;
+	--body-background: #fff;
+
+	/* layout */
+	--container-width: 1200px;
+	--container-padding: 24px;
+}

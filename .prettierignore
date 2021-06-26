@@ -1,0 +1,4 @@
+# Files/folders we need prettier to ignore
+# .prettierignore uses same syntax as .gitignore files
+
+**/*.html

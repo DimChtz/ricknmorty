@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rick & Morty Characters</title>
+		<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/core.css" />
+	</head>
+	<body>
+
+		<div id="app">
+
+			<header class="site-header">
+				<div class="container container--fluid">
+					<a href="#" class="brand">
+						<img src="images/logo.svg" alt="" class="brand__logo" />
+					</a><!-- /.brand -->
+				</div><!-- /.container -->
+			</header><!-- /.site-header -->
+
+			<main class="main-content" role="main">
+
+				<section class="section section-padding section-padding--large">
+					<img src="images/who.svg" alt="" class="section-placeholder" />
+					<div class="container">
+						<div class="text-content text-center">
+							<h1>Is this the first part of some magic trick?</h1>
+							<p>“Uh, here's something that's never happened before: I'm a pickle.”</p>
+						</div><!-- /.text-content -->
+					</div><!-- /.container -->
+				</section><!-- /.section -->
+
+				<section class="section section-padding">
+					<div class="section-background">
+						<img src="images/bg.jfif" alt="" class="section-background__image" />
+					</div><!-- /.section-background -->
+					<div class="container">
+						<div class="chars-pagination chars-pagination--mobile-only">
+							<a href="#" class="chars-pagination__nav chars-pagination__nav--left chars-pagination__nav--disabled">
+								<img src="images/icons/chevron-left.svg" alt="" />
+							</a><!-- /.chars-pagination__nav charsNav -->
+							<a href="#" class="chars-pagination__nav chars-pagination__nav--right">
+								<img src="images/icons/chevron-right.svg" alt="" />
+							</a><!-- /.chars-pagination__nav charsNav -->
+							<div class="chars-pagination__label">
+								<span class="page">1</span> of <span class="total"></span>
+							</div><!-- /.chars-pagination__label -->
+						</div><!-- /.chars-pagination -->
+						<div id="chars-container" class="char-grid"></div>
+						<div class="chars-pagination">
+							<a href="#" class="chars-pagination__nav chars-pagination__nav--left chars-pagination__nav--disabled">
+								<img src="images/icons/chevron-left.svg" alt="" />
+							</a><!-- /.chars-pagination__nav charsNav -->
+							<a href="#" class="chars-pagination__nav chars-pagination__nav--right">
+								<img src="images/icons/chevron-right.svg" alt="" />
+							</a><!-- /.chars-pagination__nav charsNav -->
+							<div class="chars-pagination__label">
+								<span class="page">1</span> of <span class="total"></span>
+							</div><!-- /.chars-pagination__label -->
+						</div><!-- /.chars-pagination -->
+					</div><!-- /.container -->
+				</section><!-- /.section -->
+
+			</main><!-- /.main-content -->
+
+			<div id="char-preview-modal" class="char-modal">
+				<div class="char-modal__scroller">
+					<div class="char-modal__box">
+						<a href="#" class="char-modal__close-btn">
+							<img src="images/icons/close.svg" alt="" />
+						</a><!-- /.char-modal__close-btn -->
+						<div class="char-modal__header">
+							<div class="char-modal__avatar">
+								<img src="#" alt="" />
+							</div><!-- /.char-modal__avatar -->
+							<h3 class="char-modal__name">Rick Sanchez</h3><!-- /.char-modal__name -->
+							<div class="char-modal__status char-modal__status--alive"></div><!-- /.char-modal__status -->
+						</div><!-- /.char-modal__header -->
+						<div class="char-modal__details">
+							<p class="gender">Gender: <span></span></p>
+							<p class="location">Last seen location: <span></span></p>
+							<p class="episodes">Number of episodes appeared: <span></span></p><!-- /.episodes -->
+						</div><!-- /.char-modal__details -->
+					</div><!-- /.char-modal__box -->
+				</div><!-- /.char-modal__scroller -->
+			</div><!-- /.char-modal -->
+
+		</div><!-- /#app -->
+
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<script src="js/char-box.js"></script>
+		<script src="js/app.js"></script>
+
+	</body>
+</html>
